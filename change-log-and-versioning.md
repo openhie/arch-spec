@@ -9,7 +9,7 @@ The following are an overview of the significant content changes that have been 
 * Added [Point-of-Care Systems](openhie-component-specifications-1/point-of-care-systems-new-section.md) page
 * Added [How to use the Specification](get-started.md) page
 * Added [Standards and Profiles](architecture-specification/standards-and-profiles.md) page
-* Added a new workflow section, [Vaccine Workflows](introduction/case-reporting-new-section-needs-to-go-in-alpha-order/) and its pages.  
+* Added a new workflow section, [Vaccine Workflows](introduction/case-reporting-new-section-needs-to-go-in-alpha-order.md) and its pages.  
 * Moved [Architecture Principles](architecture-specification/architectural-principles.md) to the Specification 
 * Moved [Architecture Standards and Profiles](architecture-specification/standards-and-profiles.md) to the Specification
 
