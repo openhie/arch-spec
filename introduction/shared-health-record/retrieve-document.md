@@ -45,10 +45,10 @@ This transaction can be used to retrieve documents from a SHR or document reposi
         <p></p>
         <ul>
           <li>The appropriate trust agreements and processes have been put in place
-            for the Verifier to receive the certificate.</li>
-          <li>The appropriate transactions denoting health certificate status have been
-            stored. This may include saving a vaccine or a lab test event to a shared
-            health record via <a href="register-store-document.md">Register / Store Document</a> or
+            for the document requester or Verifier to receive the certificate.</li>
+          <li>The appropriate documents or meta data about the document have been stored.
+            This may include saving a vaccine or a lab test event to a shared health
+            record via <a href="register-store-document.md">Register / Store Document</a> or
             <a
             href="save-patient-level-clinical-data-workflow.md">Save Patient-level Clinical Data Workflow</a>.</li>
         </ul>
@@ -60,13 +60,15 @@ This transaction can be used to retrieve documents from a SHR or document reposi
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>Verifier (External System) - External system or Point-of-care system requesting
-            the vaccine status.</li>
-          <li>IOL - The interoperability layer that secures and orchestrates the exchange
-            of information (see OHIE Interoperability layer)</li>
-          <li>SHR / Document Repository (or Electronic Vaccination Registry) - The shared
-            health record that serves as a centralized data store for patients&#x2019;
-            longitudinal health record and or health documents</li>
+          <li>Document Requester or Verifier (External System) - External system or
+            Point-of-care system requesting the document or vaccine status.</li>
+          <li><a href="../../openhie-component-specifications-1/openhie-interoperability-layer-iol.md">IOL</a> -
+            The interoperability layer that secures and orchestrates the exchange of
+            information</li>
+          <li><a href="../../openhie-component-specifications-1/openhie-shared-health-record-shr.md">SHR </a>/
+            Document Repository (or Electronic Vaccination Registry) - The shared health
+            record that serves as a centralized data store for patients&#x2019; longitudinal
+            health record and or health documents</li>
         </ul>
       </td>
     </tr>

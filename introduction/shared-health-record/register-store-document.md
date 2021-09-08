@@ -1,6 +1,6 @@
 # Register / Store Document
 
-This transaction can be used to register the document metadata and optionally store documents in a SHR or document repository. This transaction can also be used to support storage of vaccine certificate documents.  
+This transaction can be used to register the document metadata and optionally store documents in a SHR or document repository. This transaction can also be used to support storage of vaccine certificates.  
 
 <table>
   <thead>
@@ -33,8 +33,9 @@ This transaction can be used to register the document metadata and optionally st
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>The Retrieve Health Certificate transaction is based on <a href="https://profiles.ihe.net/ITI/MHD/ITI-68.html">MHD&apos;s Retrieve Document transaction [ITI-68]</a>.
-            It can be used to verify the contents of a DDCC Immunization event.</li>
+          <li>The Register / Store Document transaction is based on <a href="https://profiles.ihe.net/ITI/MHD/ITI-65.html#2365412-message-semantics">MHD&apos;s Provide Document Bundle transaction [ITI-65]</a>.
+            It can be used store the metadata about a document and optionally store
+            the document itself.</li>
         </ul>
       </td>
     </tr>
@@ -45,12 +46,8 @@ This transaction can be used to register the document metadata and optionally st
         <p></p>
         <ul>
           <li>The appropriate trust agreements and processes have been put in place
-            for the Verifier to receive the certificate.</li>
-          <li>The appropriate transactions denoting health certificate status have been
-            stored. This may include saving a vaccine or a lab test event to a shared
-            health record via <a href="register-store-document.md">Register / Store Document</a> or
-            <a
-            href="save-patient-level-clinical-data-workflow.md">Save Patient-level Clinical Data Workflow</a>.</li>
+            for the system sharing the document or the Document Generation Service
+            to provide the documentation to the SHR or document repository.</li>
         </ul>
       </td>
     </tr>
@@ -60,13 +57,15 @@ This transaction can be used to register the document metadata and optionally st
       <td style="text-align:left">
         <p></p>
         <ul>
-          <li>Verifier (External System) - External system or Point-of-care system requesting
-            the vaccine status.</li>
-          <li>IOL - The interoperability layer that secures and orchestrates the exchange
-            of information (see OHIE Interoperability layer)</li>
-          <li>SHR / Document Repository (or Electronic Vaccination Registry) - The shared
-            health record that serves as a centralized data store for patients&#x2019;
-            longitudinal health record and or health documents</li>
+          <li>Point-of-Care or Document Generation Service (External System) - External
+            system or Point-of-care system generating the document.</li>
+          <li><a href="../../openhie-component-specifications-1/openhie-interoperability-layer-iol.md">IOL </a>-
+            The interoperability layer that secures and orchestrates the exchange of
+            information (see OHIE Interoperability layer)</li>
+          <li><a href="../../openhie-component-specifications-1/openhie-shared-health-record-shr.md">SHR</a> /
+            Document Repository (or Electronic Vaccination Registry) - The shared health
+            record that serves as a centralized data store for patients&#x2019; longitudinal
+            health record and or health documents</li>
         </ul>
       </td>
     </tr>
@@ -75,9 +74,14 @@ This transaction can be used to register the document metadata and optionally st
 
 ### Interaction Description
 
-The Interaction Description is stored in the ["Retrieve Health Certificate Reference" in the WHO FHIR IG](https://worldhealthorganization.github.io/ddcc/transactions.html).  
+The Interaction Description is stored in the ["Store Health Certificate"](https://worldhealthorganization.github.io/ddcc/transactions.html#store-health-certificate) in the WHO FHIR IG.  
 
 {% hint style="success" %}
-References:  [WHO DDCC Workflows](https://worldhealthorganization.github.io/ddcc/workflows.html)
+References:  
+
+* [WHO DDCC Workflows](https://worldhealthorganization.github.io/ddcc/workflows.html)
+* [Digitize Vaccine Event](https://worldhealthorganization.github.io/ddcc/workflows.html)
 {% endhint %}
+
+
 

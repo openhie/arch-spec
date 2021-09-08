@@ -11,8 +11,9 @@ The workflows are designed to support the following types of data exchanges with
 References:
 
 * [WHO DDCC Workflows](https://worldhealthorganization.github.io/ddcc/workflows.html)
-* The [Register / Store Document](shared-health-record/register-store-document.md) Interaction Description for COVID certificates is stored in the ["Retrieve Health Certificate Reference" in the WHO FHIR IG](https://worldhealthorganization.github.io/ddcc/transactions.html). 
 {% endhint %}
+
+
 
 
 
