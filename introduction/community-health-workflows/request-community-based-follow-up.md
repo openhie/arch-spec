@@ -75,7 +75,7 @@ This workflow allows a point-of-care system to make requests to a Community Heal
 
  ****
 
-![](../../.gitbook/assets/community-based-follow-up-data-flow-4-.png)
+![](../../.gitbook/assets/community-based-follow-up-data-flow-4-%20%281%29.png)
 
 | **\#** | Interaction | Data  | Transaction Options |
 | :--- | :--- | :--- | :--- |

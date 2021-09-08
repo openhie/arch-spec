@@ -64,8 +64,9 @@ A verifier \(point-of-care application or any authorized application outside of 
             the vaccine status.</li>
           <li>IOL - The interoperability layer that secures and orchestrates the exchange
             of information (see OHIE Interoperability layer)</li>
-          <li>SHR (or Vaccine Service Repository) - The shared health record that serves
-            as a centralized data store for patients&#x2019; longitudinal health record</li>
+          <li>SHR (or Electronic Vaccination Registry) - The shared health record that
+            serves as a centralized data store for patients&#x2019; longitudinal health
+            record and or health documents</li>
         </ul>
       </td>
     </tr>
