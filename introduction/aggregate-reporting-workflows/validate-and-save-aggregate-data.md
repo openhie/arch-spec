@@ -1,6 +1,6 @@
 # Validate and Save Aggregate Data
 
- This workflow specifies the interactions for validating and saving an aggregate data message that has been transmitted from an external system to the HIE.
+This workflow specifies the interactions for validating and saving an aggregate data message that has been transmitted from an external system to the HIE.
 
 <table>
   <thead>
@@ -12,11 +12,10 @@
           <img src="https://lh5.googleusercontent.com/Jhlle6_MgJyrv7qJwksD4lSccNcIeIAmz3vJprq5F7s45EYyqm-y1OXrxhVZ3ZTF9yXt7521LYuCIaWOKm6QlUd9VswR0K3j6VhdwbKbSFOOJ6e35FxAWoAr1DedC80Okg"
           alt/>
         </p>
-        <p><b>   Maturing</b>
+        <p> <b>Maturing</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li>Workflow is defined and ARB approved</li>
           <li>Workflow is supported by emerging IHE ADX standard</li>
@@ -35,21 +34,19 @@
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">The sender and receiver have the same metadata (indicator, disaggregators
-        and facilities). If not, the metadata will need to be translated.<b> </b>
-      </td>
+        and facilities). If not, the metadata will need to be translated.</td>
     </tr>
     <tr>
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p><b>Sender - External System Actor </b>
+        <p><b>Sender - External System Actor</b>
         </p>
         <ul>
-          <li>The system<b> sending </b>the ADX message. The system may be a Health
-            Information Exchange with patient-level abilities to aggregate data and/or
-            a system that contains aggregate level data. The system may also be a point-of-service
-            system that contains or produces aggregate data. <b> </b>
-          </li>
+          <li>The system <b>sending</b> the ADX message. The system may be a Health Information
+            Exchange with patient-level abilities to aggregate data and/or a system
+            that contains aggregate level data. The system may also be a point-of-service
+            system that contains or produces aggregate data.</li>
         </ul>
         <p><b>Receiving HIE</b>
         </p>
@@ -61,7 +58,7 @@
             between components of the HIE and provides common core functions to simplify
             the interoperability between systems.</li>
           <li>HMIS - Health Management Information System that is processing and storing
-            the aggregate data (ADX message)<b> received.</b>
+            the aggregate data (ADX message) <b>received.</b>
           </li>
         </ul>
       </td>
@@ -69,7 +66,7 @@
   </tbody>
 </table>
 
-## Interaction Description 
+## Interaction Description
 
 ![](https://lh6.googleusercontent.com/BlXalgCia-nuCuMsYCeMy7QqMzEvmAE4V7JQ7mVTgpGgyYetQxjVIp1fVg1ms9rHvtuXNc-JBJEGk1DJixqOKX5XYcWwHx6FY3uTl58pPJ3g35qTQwnbwMl4GsP7aoDUlg)
 
@@ -93,7 +90,7 @@
         <p>(The process is initiated by the receipt of an Aggregate Data Message.)</p>
       </td>
       <td style="text-align:left">ADX data</td>
-      <td style="text-align:left"><b> </b>ADX -<a href="http://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf"> http://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf</a>
+      <td style="text-align:left">ADX - <a href="http://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf">http://www.ihe.net/uploadedFiles/Documents/QRPH/IHE_QRPH_Suppl_ADX.pdf</a>
       </td>
     </tr>
     <tr>

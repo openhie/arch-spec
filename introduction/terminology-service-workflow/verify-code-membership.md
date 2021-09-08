@@ -2,7 +2,7 @@
 
 This transaction allows a PoS, or any OHIE component, to access terminological information in the terminology service to verify that a code is a member of defined value set. A typical example would be to validate that the codes contained in an incoming patient data message are, in fact, from a required value set, e.g. the HIV ValueSet.
 
-Both external systems and systems inside the HIE may perform this transaction directly with the TS. The sequence diagram below shows the steps that occur for a system using this transaction.   
+Both external systems and systems inside the HIE may perform this transaction directly with the TS. The sequence diagram below shows the steps that occur for a system using this transaction.
 
 1. Membership: Is a Concept Code present in a specified Value Set, e.g., is Code '123XYZ' from ICD-10 a member of the HIV ValueSet?
 
@@ -15,13 +15,12 @@ Both external systems and systems inside the HIE may perform this transaction di
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>   Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
-          <li><b>One or more OpenHIE implementations of this workflow exist  in one or more countries</b>
+          <li><b>One or more OpenHIE implementations of this workflow exist in one or more countries</b>
           </li>
           <li><b>Workflow is defined and ARB approved</b>
           </li>
@@ -55,7 +54,6 @@ Both external systems and systems inside the HIE may perform this transaction di
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point-of-service system or other HIE component that is requesting
             to verify a code.</li>
@@ -67,9 +65,9 @@ Both external systems and systems inside the HIE may perform this transaction di
   </tbody>
 </table>
 
-## Interaction Description 
+## Interaction Description
 
-The following is a description of the interaction steps. 
+The following is a description of the interaction steps.
 
 ![](https://lh4.googleusercontent.com/4-iRcNlezqHnwXPGLWPfKodFiGmHUDdrk-5nUahxqNQBoKrmiw64-qTyh5sgf9XU-1LsUmSQyJxQ-LZQnxBdz3Sxre8KpN1JBnHlH8qKmjINiCVawyB9FLEU19iYdA-rEQ)
 
@@ -103,6 +101,4 @@ The following is a description of the interaction steps.
     </tr>
   </tbody>
 </table>
-
-## 
 

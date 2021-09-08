@@ -1,8 +1,6 @@
 # Retrieve Health Certificate
 
-
-
-A verifier \(point-of-care application or any authorized application outside of the HIE\) can use this transaction to  verify a Digital Documentation COVID Certificate \(DDCC\) Immunization event.  This may include COVID immunizations and negative tests.  
+A verifier \(point-of-care application or any authorized application outside of the HIE\) can use this transaction to verify a Digital Documentation COVID Certificate \(DDCC\) Immunization event. This may include COVID immunizations and negative tests.
 
 <table>
   <thead>
@@ -18,11 +16,10 @@ A verifier \(point-of-care application or any authorized application outside of 
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li><b>Workflow is defined by WHO and has OpenHIE ARB approval</b>
           </li>
-          <li><b>Initial implementations are being considered.  </b>
+          <li><b>Initial implementations are being considered.</b>
           </li>
         </ul>
       </th>
@@ -33,7 +30,6 @@ A verifier \(point-of-care application or any authorized application outside of 
       <td style="text-align:left">Standards</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>The Retrieve Health Certificate transaction is based on <a href="https://profiles.ihe.net/ITI/MHD/ITI-68.html">MHD&apos;s Retrieve Document transaction [ITI-68]</a>.
             It can be used to verify the contents of a DDCC Immunization event.</li>
@@ -44,7 +40,6 @@ A verifier \(point-of-care application or any authorized application outside of 
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>The appropriate trust agreements and processes have been put in place
             for the Verifier to receive the certificate.</li>
@@ -58,7 +53,6 @@ A verifier \(point-of-care application or any authorized application outside of 
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>Verifier (External System) - External system or Point-of-care system requesting
             the vaccine status.</li>
@@ -72,13 +66,11 @@ A verifier \(point-of-care application or any authorized application outside of 
   </tbody>
 </table>
 
-### Interaction Description
+## Interaction Description
 
-The Interaction Description is stored in the ["Retrieve Health Certificate Reference" in the WHO FHIR IG](https://worldhealthorganization.github.io/ddcc/transactions.html).  
+The Interaction Description is stored in the ["Retrieve Health Certificate Reference" in the WHO FHIR IG](https://worldhealthorganization.github.io/ddcc/transactions.html).
 
 {% hint style="success" %}
-References:  [WHO DDCC Workflows](https://worldhealthorganization.github.io/ddcc/workflows.html)
+References: [WHO DDCC Workflows](https://worldhealthorganization.github.io/ddcc/workflows.html)
 {% endhint %}
-
-
 

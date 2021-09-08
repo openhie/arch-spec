@@ -1,6 +1,6 @@
 # Query Health Worker and/or Facility Records Workflow
 
- ****Workflow for a point of service application to query the Info Manager for health workers, facilities and/or the services provided by each.
+_\*\*_Workflow for a point of service application to query the Info Manager for health workers, facilities and/or the services provided by each.
 
 <table>
   <thead>
@@ -12,11 +12,10 @@
           <img src="https://lh5.googleusercontent.com/JtMiFMfprHsm6bp5bPjwqbjk7lTXHFOmWF6hvgxXCOpsdz7FEWQnuyjwaCnkTfyCG-fOtIfz6TtqGkwHNHL1kQH0-R-JzEC6LngazcAgioSUd7b5qlvsaEqqrYfJrOrZlQ"
           alt/>
         </p>
-        <p><b>  Maturing</b>
+        <p> <b>Maturing</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li>Workflow is defined and ARB Approved</li>
           <li>Workflow is supported by CSD IHE standards*</li>
@@ -39,7 +38,6 @@
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>IL = Interoperability Layer to handle data governance and security issues,
             CSD Services Finder</li>
@@ -53,9 +51,9 @@
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
-The following is a description of the interaction steps. ****
+The following is a description of the interaction steps. _\*\*_
 
 ![](https://lh4.googleusercontent.com/jqfTIzdr175wG-QVNwzNs4kz8VY7prz8-qKSIMDtGbDElOQuqeh4emBBeG8K1OZjI6ApLq6OIILrGcCQMqlsZkGdWyxQlz5QLOwnbD3mFaF_waA9fH2F_nIk_TxVFCdJ6A)
 

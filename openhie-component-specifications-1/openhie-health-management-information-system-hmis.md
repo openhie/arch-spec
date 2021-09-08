@@ -2,17 +2,17 @@
 
 A Health Management Information System \(HMIS\), also called a Routine Health Information System, facilitates the collection of periodic health service delivery and public health indicators from a variety of information systems and the effective use of information at facility, district, and higher levels to help improve health care outcomes.
 
-See also [Non-Functional Requirements](non-functional-requirements.md). 
+See also [Non-Functional Requirements](non-functional-requirements.md).
 
-## **OpenHIE HMIS Workflow Requirements** 
+## **OpenHIE HMIS Workflow Requirements**
 
-The following workflow is currently supported, and an FHIR-based message is emerging. 
+The following workflow is currently supported, and an FHIR-based message is emerging.
 
 | \# | **HMIS Workflows \(Described in detail in the later part of this document\)** | **Recommendation / Requirement** |
 | :--- | :--- | :--- |
 | \*\*\*\*[**HMISWF-1**](../introduction/aggregate-reporting-workflows/validate-and-save-aggregate-data.md)\*\*\*\* | [Validate and Save Aggregate Data](../introduction/aggregate-reporting-workflows/validate-and-save-aggregate-data.md) | Required |
 
-## **OpenHIE HMIS Functional Requirements** 
+## **OpenHIE HMIS Functional Requirements**
 
 <table>
   <thead>
@@ -71,7 +71,6 @@ The following workflow is currently supported, and an FHIR-based message is emer
       <td style="text-align:left"><b>HMISF-7</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>To support its primary function of data use, an HMIS should:</p>
         <ul>
           <li>Be able to further aggregate and analyze data (e.g., provide annual report

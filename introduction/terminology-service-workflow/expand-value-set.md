@@ -1,8 +1,8 @@
 # Expand Value Set
 
- This transaction allows a PoS, or any OHIE component, to access terminological information in the terminology service and retrieve the set of all Concepts in the Value Set. Rather than testing each code contained in an incoming patient data message for Value Set membership, this operation enables a component to "cache" the Value Set members and test individual membership locally, avoiding extensive network overhead. Due to the likely updating of Value Set definitions, on the other hand, components should periodically refresh their local copy of the expansion.
+This transaction allows a PoS, or any OHIE component, to access terminological information in the terminology service and retrieve the set of all Concepts in the Value Set. Rather than testing each code contained in an incoming patient data message for Value Set membership, this operation enables a component to "cache" the Value Set members and test individual membership locally, avoiding extensive network overhead. Due to the likely updating of Value Set definitions, on the other hand, components should periodically refresh their local copy of the expansion.
 
-Both external systems and systems inside the HIE may perform this transaction directly with the TS.  The sequence diagram below shows the steps that occur for a system using this transaction.   
+Both external systems and systems inside the HIE may perform this transaction directly with the TS. The sequence diagram below shows the steps that occur for a system using this transaction.
 
 1. Expansion: Retrieve the set of Concept Codes that are members of the HIV Value Set.
 
@@ -15,13 +15,12 @@ Both external systems and systems inside the HIE may perform this transaction di
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>    Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
-          <li><b>One or more OpenHIE implementations of this workflow exist  in one or more countries</b>
+          <li><b>One or more OpenHIE implementations of this workflow exist in one or more countries</b>
           </li>
           <li><b>Workflow is defined and ARB approved</b>
           </li>
@@ -56,7 +55,6 @@ Both external systems and systems inside the HIE may perform this transaction di
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point-of-service system or any other HIE component that is requesting
             the expansion.</li>
@@ -68,9 +66,9 @@ Both external systems and systems inside the HIE may perform this transaction di
   </tbody>
 </table>
 
-## Interaction Description 
+## Interaction Description
 
-The following is a description of the interaction steps. 
+The following is a description of the interaction steps.
 
 ![](https://lh6.googleusercontent.com/tzzPlEZXJf_0yFSnLH8UKDEBsMSHT7ga4d4dBhMz5D01i1SVUHyjiwmsBkDabqtJG5C1tj7A4AUH1F3oQEYWRIAi1KKNtptfpkTGZJbY7f4wUBOY4T8Ik897x--PciLPEw)
 

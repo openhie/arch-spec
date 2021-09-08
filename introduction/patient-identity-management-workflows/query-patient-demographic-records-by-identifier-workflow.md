@@ -14,13 +14,12 @@ This transaction allows patient demographics to be fetched from the Client Regis
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>    Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
-          <li><b>One or more OpenHIE implementations of this workflow exist  in one or more countries</b>
+          <li><b>One or more OpenHIE implementations of this workflow exist in one or more countries</b>
           </li>
           <li><b>Workflow is defined and ARB approved</b>
           </li>
@@ -35,7 +34,6 @@ This transaction allows patient demographics to be fetched from the Client Regis
       <td style="text-align:left">Standards*</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>Option 1
             <ul>
@@ -65,7 +63,6 @@ This transaction allows patient demographics to be fetched from the Client Regis
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point of service system that captures patient identifiers, is
             responsible for sending the identifiers to the HIE.</li>
@@ -77,7 +74,7 @@ This transaction allows patient demographics to be fetched from the Client Regis
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
 The following is a description of the interaction steps.
 
@@ -99,9 +96,8 @@ The following is a description of the interaction steps.
       <td style="text-align:left">The message includes the query criteria, which may include one or more
         patient identifiers.</td>
       <td style="text-align:left">
-        <p></p>
         <ul>
-          <li><a href="https://wiki.ohie.org/display/documents/Patient+Demographics+Query+IHE+ITI-21+Transaction">PDQ ITI-21 transaction QBP-Q22</a> 
+          <li><a href="https://wiki.ohie.org/display/documents/Patient+Demographics+Query+IHE+ITI-21+Transaction">PDQ ITI-21 transaction QBP-Q22</a>
           </li>
         </ul>
         <p>OR</p>
@@ -117,9 +113,8 @@ The following is a description of the interaction steps.
       <td style="text-align:left">The message from the PoS is passed directly through to the CR by the IL</td>
       <td
       style="text-align:left">
-        <p></p>
         <ul>
-          <li><a href="https://wiki.ohie.org/display/documents/Patient+Demographics+Query+IHE+ITI-21+Transaction">PDQ ITI-21 transaction QBP-Q22</a> 
+          <li><a href="https://wiki.ohie.org/display/documents/Patient+Demographics+Query+IHE+ITI-21+Transaction">PDQ ITI-21 transaction QBP-Q22</a>
           </li>
         </ul>
         <p>OR</p>
@@ -135,7 +130,6 @@ The following is a description of the interaction steps.
       <td style="text-align:left">The response returns the patient(s) that matched the query criteria. It
         may consist of zero or more patient demographic records.</td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li><a href="https://wiki.ohie.org/display/documents/Patient+Demographics+Query+IHE+ITI-21+Transaction">PDQ ITI-21 transaction RSP-K22</a>
           </li>
@@ -153,7 +147,6 @@ The following is a description of the interaction steps.
       <td style="text-align:left">The message from the CR is passed directly through to the PoS by the IL</td>
       <td
       style="text-align:left">
-        <p></p>
         <ul>
           <li><a href="https://wiki.ohie.org/display/documents/Patient+Demographics+Query+IHE+ITI-21+Transaction">PDQ ITI-21 transaction RSP-K22</a>
           </li>

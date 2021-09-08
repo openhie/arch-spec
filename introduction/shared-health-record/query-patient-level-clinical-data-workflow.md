@@ -1,6 +1,6 @@
 # Query Patient-level Clinical Data Workflow
 
- ****The transaction queries for previously stored clinical data for a specific patient. The following sequence diagram shows the steps involved in this transaction.
+_\*\*_The transaction queries for previously stored clinical data for a specific patient. The following sequence diagram shows the steps involved in this transaction.
 
 <table>
   <thead>
@@ -12,13 +12,12 @@
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>    Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
-          <li><b>One or more OpenHIE implementations of this workflow exist  in one or more countries</b>
+          <li><b>One or more OpenHIE implementations of this workflow exist in one or more countries</b>
           </li>
           <li><b>Workflow is defined and ARB approved</b>
           </li>
@@ -33,7 +32,6 @@
       <td style="text-align:left">Standards*</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>XDS.b with the on-demand document option</li>
           <li>CDA documents profiled by IHE PCC</li>
@@ -56,7 +54,6 @@
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>The PoS system must ensure the patient they are querying clinical information
             about already exists. It can do this by querying for the patient (<a href="https://docs.google.com/document/d/1vn46_f0nKDSwiSNfU1JzCat0sFvHe8y3mM5Py2nz4uU/edit#heading=h.i2zmb6glro23">Query patients workflow</a>).</li>
@@ -64,7 +61,7 @@
             with the interoperability layer to be able to send and receive data securely
             (<a href="https://wiki.ohie.org/display/documents/Common+message+security+workflow">Common message security workflow</a>).</li>
         </ul>
-        <p>The SHR<b> MUST</b> be able to generate on-demand documents in the <a href="http://wiki.ihe.net/index.php?title=Medical_Summaries_Profile">XDS-MS</a> format
+        <p>The SHR <b>MUST</b> be able to generate on-demand documents in the <a href="http://wiki.ihe.net/index.php?title=Medical_Summaries_Profile">XDS-MS</a> format
           using the data it stored in the <a href="https://docs.google.com/document/d/1vn46_f0nKDSwiSNfU1JzCat0sFvHe8y3mM5Py2nz4uU/edit#heading=h.rldiwp20bk7f">save patient-level clinical data workflow</a>.
           Optionally, any other sections that have been discretely imported and are
           deemed useful may be added to the generated XDS-MS document.</p>
@@ -74,7 +71,6 @@
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point of care system that captures a patient&apos;s clinical
             encounter, it is responsible for sending clinical data on to the HIE.</li>
@@ -93,9 +89,9 @@
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
-The following is a description of the interaction steps. 
+The following is a description of the interaction steps.
 
 ![](https://lh3.googleusercontent.com/pdTH8pA1_8ukXlAAVEYWMWGGdnkfEo2CfGe3_8S8GTMGXG0U6kE92bQIZ59C40w-47VlphCZnw0C0c-rkZD0fiwHvKiG5QKC3jSowHX4QAOx_lnpuyH9HuOyYHLI6MPkeA)
 

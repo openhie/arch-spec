@@ -15,13 +15,12 @@ Both external systems and systems inside the HIE may perform this transaction di
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>   Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
-          <li><b>One or more OpenHIE implementations of this workflow exist  in one or more countries</b>
+          <li><b>One or more OpenHIE implementations of this workflow exist in one or more countries</b>
           </li>
           <li><b>Workflow is defined and ARB approved</b>
           </li>
@@ -54,7 +53,6 @@ Both external systems and systems inside the HIE may perform this transaction di
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point-of-service system or other HIE component that is requesting
             to verify a code.</li>
@@ -66,9 +64,9 @@ Both external systems and systems inside the HIE may perform this transaction di
   </tbody>
 </table>
 
-## Interaction Description 
+## Interaction Description
 
-The following is a description of the interaction steps. 
+The following is a description of the interaction steps.
 
 ![](https://lh5.googleusercontent.com/tVcE12rhH8Qu9ouNomMiBBhudn6nPwbbxMhMMD4Xd3cLTErV3U-mF0d63-2tX9CDXJX3NMn9R7z1nzIOYg3rhtg0_yFgAv0bwI5YrO-YYqnbv5JmIVN7fcls68f5ULMQNw)
 
@@ -100,6 +98,4 @@ The following is a description of the interaction steps.
     </tr>
   </tbody>
 </table>
-
-## 
 

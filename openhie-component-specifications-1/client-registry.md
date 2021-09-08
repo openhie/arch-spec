@@ -6,59 +6,20 @@ The identity of an individual who receives health services is crucial to enablin
 * Linking patient registration entries that result due to changes in patient demographics \(patient moved to another location\), data entry errors during patient registration, or missing demographic information.
 * Enabling health care workers to identify facilities at which a patient has received care.
 
-See also [Non-Functional Requirements](non-functional-requirements.md). 
+See also [Non-Functional Requirements](non-functional-requirements.md).
 
-## OpenHIE CR Workflow Requirements 
+## OpenHIE CR Workflow Requirements
 
-A [core principle of the OpenHIE architecture](https://wiki.ohie.org/display/resources/Architectural+Principals) is to allow the various infrastructure services \(such as the CR\) to be interchangeable. To support this,  the [OpenHIE Standards and Profiles](https://wiki.ohie.org/display/documents/OpenHIE+Standards+and+Profiles) used by the Client Registry are outlined in the workflows below.  To be an OHIE CR component, the CR application must be able to support the OHIE workflows listed below.  Implementations may support only the workflows needed to support their use case:
+A [core principle of the OpenHIE architecture](https://wiki.ohie.org/display/resources/Architectural+Principals) is to allow the various infrastructure services \(such as the CR\) to be interchangeable. To support this, the [OpenHIE Standards and Profiles](https://wiki.ohie.org/display/documents/OpenHIE+Standards+and+Profiles) used by the Client Registry are outlined in the workflows below. To be an OHIE CR component, the CR application must be able to support the OHIE workflows listed below. Implementations may support only the workflows needed to support their use case:
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">
-        <p>
-          <br />#</p>
-        <p></p>
-        <p></p>
-      </th>
-      <th style="text-align:left"><b>CR Workflows (Described in detail in the later part of this document)</b>
-      </th>
-      <th style="text-align:left">Recommendation/Requirement</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b>CRWF-1</b>
-      </td>
-      <td style="text-align:left">A CR shall support the &#x201C;<a href="../introduction/patient-identity-management-workflows/create-patient-demographic-record-workflow-1.md">Create patient demographic record workflow</a>&#x201D;</td>
-      <td
-      style="text-align:left">Requirement</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>CRWF-2</b>
-      </td>
-      <td style="text-align:left">A CR shall support the &#x201C;<a href="../introduction/patient-identity-management-workflows/update-patient-demographic-record-workflow.md">Update patient demographic record workflow</a>&#x201D;</td>
-      <td
-      style="text-align:left">Requirement</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>CRWF-3</b>
-      </td>
-      <td style="text-align:left">A CR shall support the &#x201C;<a href="../introduction/patient-identity-management-workflows/query-patient-demographic-records-by-identifier-workflow.md">Query patient demographic records by identifier workflow</a>&#x201D;</td>
-      <td
-      style="text-align:left">Requirement</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b>CRWF-4</b>
-      </td>
-      <td style="text-align:left">A CR shall support the &#x201C;<a href="../introduction/patient-identity-management-workflows/create-patient-demographic-record-workflow.md">Query patient demographic records by demographics workflow</a>&#x201D;</td>
-      <td
-      style="text-align:left">Requirement</td>
-    </tr>
-  </tbody>
-</table>
+|  \# | **CR Workflows \(Described in detail in the later part of this document\)** | Recommendation/Requirement |
+| :--- | :--- | :--- |
+| **CRWF-1** | A CR shall support the “[Create patient demographic record workflow](../introduction/patient-identity-management-workflows/create-patient-demographic-record-workflow-1.md)” | Requirement |
+| **CRWF-2** | A CR shall support the “[Update patient demographic record workflow](../introduction/patient-identity-management-workflows/update-patient-demographic-record-workflow.md)” | Requirement |
+| **CRWF-3** | A CR shall support the “[Query patient demographic records by identifier workflow](../introduction/patient-identity-management-workflows/query-patient-demographic-records-by-identifier-workflow.md)” | Requirement |
+| **CRWF-4** | A CR shall support the “[Query patient demographic records by demographics workflow](../introduction/patient-identity-management-workflows/create-patient-demographic-record-workflow.md)” | Requirement |
 
-##  OpenHIE CR Functional Requirements 
+## OpenHIE CR Functional Requirements
 
 The following are typical features of a client registry, or master patient index. Depending upon the desired use case\(s\), the system may support many or all of these functional features.
 
@@ -77,10 +38,9 @@ The following are typical features of a client registry, or master patient index
       <td style="text-align:left"><b>CRF-1</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>The system should support configurable entity matching, a service to assist
           in identifying duplicate patients.</p>
-        <p><b>a. </b>The rules for determining whether two records match each other
+        <p><b>a.</b> The rules for determining whether two records match each other
           should be configurable (e.g., ability to use both statistical and/or rules
           based, etc.).</p>
         <p><b>b.</b> The blocking strategy for loading potential matches before the
@@ -102,7 +62,6 @@ The following are typical features of a client registry, or master patient index
       <td style="text-align:left"><b>CRF-2</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>The system shall support patient linking and de-duplication.</p>
         <p><b>a.</b> The system shall implement accurate and efficient patient linking
           and de-duplication methods.</p>
@@ -118,7 +77,6 @@ The following are typical features of a client registry, or master patient index
       <td style="text-align:left"><b>CRF-3</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>The system should support the ability to track and monitor inbound/outbound
           transactions.</p>
         <p><b>a.</b> The system must have the capacity to record receipt and transmission
@@ -145,13 +103,12 @@ The following are typical features of a client registry, or master patient index
       <td style="text-align:left"><b>CRF-6</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>The system should support configurable attributes including:</p>
-        <p><b>a. </b>The attributes that form a patient record and are used for matching
+        <p><b>a.</b> The attributes that form a patient record and are used for matching
           should be configurable.</p>
-        <p><b>b. </b>The implementation can include an example/default patient schema.</p>
+        <p><b>b.</b> The implementation can include an example/default patient schema.</p>
         <p><b>c.</b> It should be easy to add attributes to the schema.</p>
-        <p><b>d. </b>It should also be easy to remove attributes from the default
+        <p><b>d.</b> It should also be easy to remove attributes from the default
           model (or start over from scratch).</p>
       </td>
       <td style="text-align:left">Recommended</td>
@@ -160,7 +117,6 @@ The following are typical features of a client registry, or master patient index
       <td style="text-align:left"><b>CRF-7</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>The system should support error management</p>
         <p><b>a.</b> Ensure that error handling comprehensively captures and logs
           all related exceptions, and to the extent possible, shows relationships

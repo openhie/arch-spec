@@ -2,9 +2,9 @@
 
 While the roles of other OHIE components that provide services may be more easily understood, it is the IOL that secures and orchestrates the exchange of information. Similar to an orchestra conductor, the IOL provides the central force that enables all of the HIE components to work together and interact with Point-of-Service systems outside the HIE.
 
-See also [Non-Functional Requirements](non-functional-requirements.md). 
+See also [Non-Functional Requirements](non-functional-requirements.md).
 
-## **OpenHIE IOL Workflow Requirements** 
+## **OpenHIE IOL Workflow Requirements**
 
 To be OHIE IOL component, the IOL application must be able to support the following required standard:
 
@@ -24,7 +24,6 @@ To be OHIE IOL component, the IOL application must be able to support the follow
       <td style="text-align:left"><b>IOLWF-1</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p><a href="https://wiki.ihe.net/index.php/Audit_Trail_and_Node_Authentication">IHE ATNA</a> -
           this is split into two logical parts</p>
         <ul>
@@ -41,7 +40,7 @@ To be OHIE IOL component, the IOL application must be able to support the follow
 
 In addition to this, the Interoperability layer is architected to be the single point of entry into an HIE. This means that the IOL should be involved in every OpenHIE workflow. It transparently handles transaction routing, security and auditing as these are common functions that are necessary in all workflows.
 
-## **OpenHIE IOL Functional Requirements** 
+## **OpenHIE IOL Functional Requirements**
 
 <table>
   <thead>
@@ -104,7 +103,6 @@ In addition to this, the Interoperability layer is architected to be the single 
       <td style="text-align:left"><b>IOLF-6</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>The system should allow for the routing of messages to the appropriate
           architecture component or external Point-of-Service system.</p>
         <ul>
@@ -126,7 +124,6 @@ In addition to this, the Interoperability layer is architected to be the single 
       <td style="text-align:left"><b>IOLF-7</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>The systems shall include an interface into which a workflow engine can
           be connected.</p>
         <ul>

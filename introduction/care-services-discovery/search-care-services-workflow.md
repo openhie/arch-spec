@@ -14,7 +14,6 @@ Workflow for a point of service application to query a Care Services registry fo
     <tr>
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left">
-        <p></p>
         <p>A Care Services Registry shall have one or more of the following resources:</p>
         <ul>
           <li>Location</li>
@@ -27,7 +26,6 @@ Workflow for a point of service application to query a Care Services registry fo
     <tr>
       <td style="text-align:left">Actors</td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS = Point of Service Application, mCSD Care Services Selective Consumer</li>
           <li>ILR InfoMan = Interlinked Registry, mCSD Care Services Selective Supplier</li>
@@ -37,7 +35,7 @@ Workflow for a point of service application to query a Care Services registry fo
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
 The following is a description of the interaction steps.
 

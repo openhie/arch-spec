@@ -1,6 +1,6 @@
 # Vaccine Workflows
 
-This collection of workflows allows an external system with access to the HIE to save and retrieve vaccine status.  
+This collection of workflows allows an external system with access to the HIE to save and retrieve vaccine status.
 
 The workflows are designed to support the following types of data exchanges with systems that have access to the HIE.
 

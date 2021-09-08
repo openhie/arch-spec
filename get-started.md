@@ -6,8 +6,6 @@ description: >-
 
 # How to use the Specification
 
-
-
 <table>
   <thead>
     <tr>
@@ -32,7 +30,6 @@ description: >-
     <tr>
       <td style="text-align:left">Software Development Teams</td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>Use the <a href="openhie-component-specifications-1/">Component Specification</a> to
             help determining business requirements to consider in developing the software</li>
@@ -57,6 +54,4 @@ description: >-
     </tr>
   </tbody>
 </table>
-
-## 
 

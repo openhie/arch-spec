@@ -14,11 +14,10 @@ This transaction allows a Point-of-Service \(PoS\) system to store a patient's d
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>    Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li>Workflow is defined and ARB approved</li>
           <li>Workflow is supported by mature standards</li>
@@ -38,7 +37,6 @@ This transaction allows a Point-of-Service \(PoS\) system to store a patient's d
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ol>
           <li>The Point-of-Service (PoS) system is a trusted application known by the
             HIE and it is registered with the interoperability layer to be able to
@@ -55,7 +53,6 @@ This transaction allows a Point-of-Service \(PoS\) system to store a patient's d
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point-of-service system that captures patient identifiers, is
             responsible for sending the identifiers to the HIE.</li>
@@ -67,7 +64,7 @@ This transaction allows a Point-of-Service \(PoS\) system to store a patient's d
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
 ![](https://lh6.googleusercontent.com/ZCc85rW_nQsY-AJmFI-8dWI5BigoEFSmBGUbx0-raNxdsgKVABuEcgJUF8dOK1HUA2sBFojGQ5iWgVRGfxlwzQwJBZZhGIu5u7sV2dAdmQ0SSAHq8LOlBTjhyjPn_Goijw)
 

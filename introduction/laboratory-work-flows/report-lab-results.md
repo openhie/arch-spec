@@ -16,7 +16,6 @@ A laboratory information system \(LIS\) can send lab test results to an Electron
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li>Workflow is defined and ARB approved</li>
           <li>Initial implementations are being implemented</li>
@@ -29,7 +28,6 @@ A laboratory information system \(LIS\) can send lab test results to an Electron
       <td style="text-align:left">Standards</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>FHIR R4 Workflow</li>
           <li>FHIR R4 search on Task, DiagnosticReport, ServiceRequest or Patient resources</li>
@@ -41,7 +39,6 @@ A laboratory information system \(LIS\) can send lab test results to an Electron
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>The EMR and LIS are trusted applications known by the IOL</li>
           <li>The IOL supports node authentication, audit tracking, and rerunning of
@@ -54,7 +51,6 @@ A laboratory information system \(LIS\) can send lab test results to an Electron
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>EMR - The electronic medical record system that captures the patient and
             order information and sends the electronic order to the LIS</li>
@@ -70,7 +66,7 @@ A laboratory information system \(LIS\) can send lab test results to an Electron
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
 ![](https://lh3.googleusercontent.com/jaFnDthLcquyqr0od9FNVobs1RxK5xaXZQ6ixemAzUHB3Dd0PcNMqm-2tmcnMV_U_M_OHH5vZmC92cdQnJqN311AWvP_Acv9Pc-pNE2Wm1T_W4F5BNRm4XkOjpOA91TuUw)
 
@@ -82,6 +78,4 @@ A laboratory information system \(LIS\) can send lab test results to an Electron
 | 4 | Search for Associated Diagnostic Reports |  | FHIR R4 Search for DiagnosticReports by UUID |
 | 5 | Return Associated Diagnostic Reports | FHIR R4 DiagnosticReport Resource with |  |
 | 6 | Update FHIR Task Status, Store DiagnosticReports and Save Results |  |  |
-
-
 

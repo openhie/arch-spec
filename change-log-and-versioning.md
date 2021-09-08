@@ -2,7 +2,7 @@
 
 ## Version 4.0 \(September 2021 - This content\)
 
-The following are an overview of the significant content changes that have been made.  
+The following are an overview of the significant content changes that have been made.
 
 ### Additions
 
@@ -13,14 +13,14 @@ The following are an overview of the significant content changes that have been 
 * Moved [Architecture Principles](architecture-specification/architectural-principles.md) to the Specification 
 * Moved [Architecture Standards and Profiles](architecture-specification/standards-and-profiles.md) to the Specification
 
-### Updates 
+### Updates
 
 * Changed the format from PDF to GitBook 
 * Minor changes in wording and formatting for GitBook
 
 ### How to Reference This Version
 
-This is the 4.0 \(September 2021\) version of the specification.  
+This is the 4.0 \(September 2021\) version of the specification.
 
 ## Version 3.0 \(September 2020\)
 

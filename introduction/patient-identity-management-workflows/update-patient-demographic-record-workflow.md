@@ -14,11 +14,10 @@ This transaction allows the Point-of-Service \(PoS\) systems to update a patient
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>    Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li>Workflow is defined and ARB approved</li>
           <li>Workflow is supported by mature standards</li>
@@ -38,7 +37,6 @@ This transaction allows the Point-of-Service \(PoS\) systems to update a patient
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>The Point-of-Service system is a trusted application known by the HIE
             and it is registered with the interoperability layer to be able to send
@@ -51,7 +49,6 @@ This transaction allows the Point-of-Service \(PoS\) systems to update a patient
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point of care system that captures patient identifiers, is responsible
             for sending the identifiers to the HIE.</li>
@@ -63,9 +60,9 @@ This transaction allows the Point-of-Service \(PoS\) systems to update a patient
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
-The following is a description of the interaction steps. 
+The following is a description of the interaction steps.
 
 ![](https://lh3.googleusercontent.com/LPkYsrvX4ygNHxQwkssyYliNGHGUBuyDo9h4TXrP4cHC6881jdodNXLynSaNWCqZz4Khhosk7o4H2NKpjTDcV83DW_2xoIhWCOiteO5mbb_Ch-V7mmlEbTBcwfAHXJhz4A)
 

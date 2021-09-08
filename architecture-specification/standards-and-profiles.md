@@ -2,7 +2,7 @@
 
 ## IHE Profiles
 
-The following are the [IHE](http://www.ihe.net/) [profiles](http://wiki.ihe.net/index.php?title=Profiles#IHE_IT_Infrastructure_Profiles) that OpenHIE is working toward demonstrating or has demonstrated as supported in reference implementations.  However, the OpenHIE architecture is **not limited to supporting these profiles**.  
+The following are the [IHE](http://www.ihe.net/) [profiles](http://wiki.ihe.net/index.php?title=Profiles#IHE_IT_Infrastructure_Profiles) that OpenHIE is working toward demonstrating or has demonstrated as supported in reference implementations. However, the OpenHIE architecture is **not limited to supporting these profiles**.
 
 <table>
   <thead>
@@ -96,7 +96,7 @@ The following are the [IHE](http://www.ihe.net/) [profiles](http://wiki.ihe.net/
         more information on how this is used.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><a href="http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)">MHD</a> 
+      <td style="text-align:left"><a href="http://wiki.ihe.net/index.php/Mobile_access_to_Health_Documents_(MHD)">MHD</a>
       </td>
       <td style="text-align:left"><b>Mobile Access to Health Documents</b> profile defines a simple HTTP
         interface to an XDS like environment. The MHD profile is intended for any
@@ -167,8 +167,6 @@ The following are the [IHE](http://www.ihe.net/) [profiles](http://wiki.ihe.net/
     </tr>
     <tr>
       <td style="text-align:left"><a href="http://wiki.ihe.net/index.php/XDS.b_Implementation">XDS.b</a>
-        <a
-        href="http://wiki.ihe.net/index.php/XDS.b_Implementation"></a>
       </td>
       <td style="text-align:left"><b>Cross-Enterprise Document Sharing (XDS.b)</b> is focused on providing
         a standards-based specification for managing the sharing of documents between
@@ -180,8 +178,6 @@ The following are the [IHE](http://www.ihe.net/) [profiles](http://wiki.ihe.net/
 </table>
 
 {% hint style="info" %}
-For documentation on how many of these profiles work together in an HIE, see [MHDS](https://wiki.ihe.net/index.php/Mobile_Health_Document_Sharing_%28MHDS%29), [IHE  White Paper ](https://profiles.ihe.net/ITI/HIE-Whitepaper/index.html)and the [Workflow \(Exchange\) Specification](../introduction/) section of this Specification.  
+For documentation on how many of these profiles work together in an HIE, see [MHDS](https://wiki.ihe.net/index.php/Mobile_Health_Document_Sharing_%28MHDS%29), [IHE White Paper ](https://profiles.ihe.net/ITI/HIE-Whitepaper/index.html)and the [Workflow \(Exchange\) Specification](../introduction/) section of this Specification.
 {% endhint %}
-
-
 

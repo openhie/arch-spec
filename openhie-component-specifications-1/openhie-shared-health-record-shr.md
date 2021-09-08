@@ -1,16 +1,16 @@
 # OpenHIE Shared Health Record \(SHR\)
 
-The Shared Health Record \(SHR\) facilitates the sharing of clinical information between health information systems to enable better patient care, thus improving health outcomes.  The Shared Health Record is a means of allowing different services to share health data stored in a centralized data repository.  It contains a subset of normalized data for a patient from various systems such as an electronic medical record or the Laboratory Information Management System. This record is queried and updated between the different institutions and systems that are authorized to do so.  The Shared Health Record is distinct from a data warehouse; it is an operational, real-time transactional data source.
+The Shared Health Record \(SHR\) facilitates the sharing of clinical information between health information systems to enable better patient care, thus improving health outcomes. The Shared Health Record is a means of allowing different services to share health data stored in a centralized data repository. It contains a subset of normalized data for a patient from various systems such as an electronic medical record or the Laboratory Information Management System. This record is queried and updated between the different institutions and systems that are authorized to do so. The Shared Health Record is distinct from a data warehouse; it is an operational, real-time transactional data source.
 
 A shared health record is normalised if all metadata items such as patient, provider, and facility identifiers are resolved to appropriate universal identifiers \(as opposed to their local identifiers as used by a client system\). In addition, all terminology codes in use need to be mapped to an appropriate reference terminology to ensure that the information is consistently understood.
 
-See also [Non-Functional Requirements](non-functional-requirements.md). 
+See also [Non-Functional Requirements](non-functional-requirements.md).
 
-## **OpenHIE SHR Workflow Requirements** 
+## **OpenHIE SHR Workflow Requirements**
 
-A [core principle of the OpenHIE architecture](https://wiki.ohie.org/display/resources/Architectural+Principals) is to allow the various infrastructure services \(such as the SHR\) to be interchangeable. To support this, the [OpenHIE Standards and Profiles](https://wiki.ohie.org/display/documents/OpenHIE+Standards+and+Profiles) used by the Shared Health Record are outlined in the workflows below.  
+A [core principle of the OpenHIE architecture](https://wiki.ohie.org/display/resources/Architectural+Principals) is to allow the various infrastructure services \(such as the SHR\) to be interchangeable. To support this, the [OpenHIE Standards and Profiles](https://wiki.ohie.org/display/documents/OpenHIE+Standards+and+Profiles) used by the Shared Health Record are outlined in the workflows below.
 
-To be an OHIE SHR component, the SHR application must be able to support the OHIE workflows listed below.  Implementations may support only the workflows needed to support their use case:
+To be an OHIE SHR component, the SHR application must be able to support the OHIE workflows listed below. Implementations may support only the workflows needed to support their use case:
 
 | **\#** | **SHR Workflows \(Described in detail in the later part of this document\)** | **Recommendation/ Requirement** |
 | :--- | :--- | :--- |
@@ -34,14 +34,13 @@ To be an OHIE SHR component, the SHR application must be able to support the OHI
       <td style="text-align:left"><b>SHRF-1</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>Stores patient level clinical data that forms a patient&#x2019;s electronic
           health record</p>
-        <p><b>a. </b>Stores unstructured clinical data such as PDFs and narrative
+        <p><b>a.</b> Stores unstructured clinical data such as PDFs and narrative
           text</p>
         <p><b>b.</b> Stores structured clinical data such as an encounter with several
           discrete observations, compatible with a standard exchange format</p>
-        <p><b>c. </b>Relating clinical information to other clinical information,
+        <p><b>c.</b> Relating clinical information to other clinical information,
           e.g., annotating/describing a document with discrete observations</p>
       </td>
       <td style="text-align:left">Recommended</td>
@@ -74,7 +73,6 @@ To be an OHIE SHR component, the SHR application must be able to support the OHI
       <td style="text-align:left"><b>SHRF-5</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>Exposes services that respond to queries for a patient&#x2019;s EHR</p>
         <p><b>a.</b> Can return a specific known document or a list of documents for
           a patient (as it was submitted)</p>
@@ -83,7 +81,7 @@ To be an OHIE SHR component, the SHR application must be able to support the OHI
           trending or providing the previous encounters that a patient has had.</p>
         <p><b>c.</b> Can return a full set of clinical information stored about a
           patient</p>
-        <p><b>d. </b>Return patient summary - everything the SHR knows about a patient
+        <p><b>d.</b> Return patient summary - everything the SHR knows about a patient
           with links to fetch the individual data items</p>
       </td>
       <td style="text-align:left">Recommended</td>
@@ -99,7 +97,6 @@ To be an OHIE SHR component, the SHR application must be able to support the OHI
       <td style="text-align:left"><b>SHRF-7</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>The SHR should keep detailed audit logs of all interactions with clinical
           data</p>
         <p><b>a.</b> Keep audit logs of any clinical and demographic data that is

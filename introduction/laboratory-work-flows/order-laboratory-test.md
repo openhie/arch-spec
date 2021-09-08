@@ -16,7 +16,6 @@ Electronic Medical Records \(EMRs\) systems can send an electronic lab order to 
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li><b>Workflow is defined and ARB approved</b>
           </li>
@@ -31,7 +30,6 @@ Electronic Medical Records \(EMRs\) systems can send an electronic lab order to 
       <td style="text-align:left">Standards</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>FHIR R4 search on Task, DiagnosticReport, ServiceRequest or Patient resources</li>
           <li>FHIR R4 bundle search response</li>
@@ -43,7 +41,6 @@ Electronic Medical Records \(EMRs\) systems can send an electronic lab order to 
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>The EMR and LIS are trusted applications known by the IOL</li>
           <li>The IOL supports node authentication, audit tracking, and rerunning of
@@ -56,7 +53,6 @@ Electronic Medical Records \(EMRs\) systems can send an electronic lab order to 
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>EMR - The electronic medical record system that captures the patient and
             order information and sends the electronic order to the LIS</li>
@@ -72,7 +68,7 @@ Electronic Medical Records \(EMRs\) systems can send an electronic lab order to 
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
 ![](https://lh6.googleusercontent.com/rmStLcHds3HOuCnVpcLYt6-3RIRWbR2jCa-s7jsKWQnvcdXo37rxEM23xYKsid4Qz6lVa2A2t2rZ_9742sX_mVGAQ5htfn9BYVcCRV0-06PPx--UAi6iXcx1Mr7blm6fqQ)
 

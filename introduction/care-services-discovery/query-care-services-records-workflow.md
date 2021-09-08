@@ -12,11 +12,10 @@ Workflow for a point of service application to query the Info Manager for the ca
           <img src="https://lh3.googleusercontent.com/5pqeaiKmzar1ArIa8oQG4D_pt1AUs6-4_d5KLJXFLpkp1PdN4eYtUD5YcMO0YNTHEH4OkUp5Jom_Gy56jgz-2o5kGTV9QtIBtg79TYH2wWecLI6PzT4uXwuBlbBKPagbDw"
           alt/>
         </p>
-        <p><b>  Maturing</b>
+        <p> <b>Maturing</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li>Workflow is defined and ARB Approved</li>
           <li>Workflow is supported by emerging IHE mCSD standard</li>
@@ -34,7 +33,6 @@ Workflow for a point of service application to query the Info Manager for the ca
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <p>A Care Services Registry shall have one or more of the following resources:</p>
         <ul>
           <li>Location</li>
@@ -48,7 +46,6 @@ Workflow for a point of service application to query the Info Manager for the ca
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>IL = Interoperability Layer to handle data governance and security issues,
             mCSD Care Services Selective Supplier</li>
@@ -63,7 +60,7 @@ Workflow for a point of service application to query the Info Manager for the ca
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
 The following is a description of the interaction steps.
 

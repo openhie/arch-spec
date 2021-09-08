@@ -1,8 +1,8 @@
 # Query Concept Maps
 
- This transaction allows a PoS, or any OHIE component, to access terminological information in the terminology service to query for Concept Maps.  A typical example would be to request the set of Concept Maps whose target Code System is SNOMED CT. Mapping is frequently required when patient data is collected using Concepts/Codes from one Code System but the data must be reported or aggregated, say for decision support, in a different Code System. The set of such associated Concepts, usually for a specific use-case, are stored in the Terminology Service in a FHIR Resource called a ConceptMap.
+This transaction allows a PoS, or any OHIE component, to access terminological information in the terminology service to query for Concept Maps. A typical example would be to request the set of Concept Maps whose target Code System is SNOMED CT. Mapping is frequently required when patient data is collected using Concepts/Codes from one Code System but the data must be reported or aggregated, say for decision support, in a different Code System. The set of such associated Concepts, usually for a specific use-case, are stored in the Terminology Service in a FHIR Resource called a ConceptMap.
 
-Both external systems and systems inside the HIE may perform this transaction directly with the TS. The sequence diagram below shows the steps that occur for a system using this transaction.   
+Both external systems and systems inside the HIE may perform this transaction directly with the TS. The sequence diagram below shows the steps that occur for a system using this transaction.
 
 1. Query Concept Maps: What Concept Maps have a map target of 'SNOMED CT''?
 
@@ -16,13 +16,12 @@ Both external systems and systems inside the HIE may perform this transaction di
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>   Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
-          <li><b>One or more OpenHIE implementations of this workflow exist  in one or more countries</b>
+          <li><b>One or more OpenHIE implementations of this workflow exist in one or more countries</b>
           </li>
           <li><b>Workflow is defined and ARB approved</b>
           </li>
@@ -37,7 +36,6 @@ Both external systems and systems inside the HIE may perform this transaction di
       <td style="text-align:left">Standards*</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>One or more OpenHIE implementations of this workflow exist in one or more
             countries</li>
@@ -55,7 +53,6 @@ Both external systems and systems inside the HIE may perform this transaction di
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point-of-service system or other HIE component that is that
             is querying for Concept Maps.</li>
@@ -67,7 +64,7 @@ Both external systems and systems inside the HIE may perform this transaction di
   </tbody>
 </table>
 
-## Interaction Description 
+## Interaction Description
 
 The following is a description of the interaction steps.
 
@@ -103,6 +100,4 @@ The following is a description of the interaction steps.
     </tr>
   </tbody>
 </table>
-
-## 
 

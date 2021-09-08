@@ -1,19 +1,18 @@
 # OpenHIE Health Worker Registry \(HWR\)
 
-The Health Worker Registry serves as the central authority for maintaining the unique identities of health workers within a country. The Health Worker Registry is a database containing a minimum dataset of details of all health workers working in both the public and private sectors. With multiple and disparate sources of data on health workers, it is a complex task to pull together and maintain a master and canonical list of all health workers in a country. The health worker registry seeks to reduce the complexity of this task by:  
+The Health Worker Registry serves as the central authority for maintaining the unique identities of health workers within a country. The Health Worker Registry is a database containing a minimum dataset of details of all health workers working in both the public and private sectors. With multiple and disparate sources of data on health workers, it is a complex task to pull together and maintain a master and canonical list of all health workers in a country. The health worker registry seeks to reduce the complexity of this task by:
 
 * Pulling the minimum dataset of health workforce information from the various source data systems. 
 * Merging the source data systems into an authoritative registry of health workers according to a data governance policy. 
 * Allowing queries of health worker information by client systems.
 
-See also [Non-Functional Requirements](non-functional-requirements.md). 
+See also [Non-Functional Requirements](non-functional-requirements.md).
 
 ## **OpenHIE HWR Workflow Requirements**
 
-A [core principle of the OpenHIE architecture](https://wiki.ohie.org/display/resources/Architectural+Principals) is to allow the various infrastructure services \(such as the HWR\) to be interchangeable. To support this, the [OpenHIE Standards and Profiles](https://wiki.ohie.org/display/documents/OpenHIE+Standards+and+Profiles) used by the Health Worker Registry are outlined in the workflows below.  
+A [core principle of the OpenHIE architecture](https://wiki.ohie.org/display/resources/Architectural+Principals) is to allow the various infrastructure services \(such as the HWR\) to be interchangeable. To support this, the [OpenHIE Standards and Profiles](https://wiki.ohie.org/display/documents/OpenHIE+Standards+and+Profiles) used by the Health Worker Registry are outlined in the workflows below.
 
-To be an OHIE HWR component, the HWR application must be able to support the OHIE workflows listed below.  Implementations may support only the workflows needed to support their use case:  
-
+To be an OHIE HWR component, the HWR application must be able to support the OHIE workflows listed below. Implementations may support only the workflows needed to support their use case:
 
 | \# | **HWR Workflows \(Described in detail in the later part of this document\)** | **Recommendation/ Requirement** |
 | :--- | :--- | :--- |

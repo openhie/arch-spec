@@ -8,5 +8,3 @@ The workflows are designed to support the following types of data exchanges with
 2. This transaction allows a PoC or an external system to provide data to the HIE's SHR.
 3. A point-of-care or external system can request and receive an on-demand document from the HIE's SHR.
 
-
-

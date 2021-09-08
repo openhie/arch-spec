@@ -1,6 +1,6 @@
 # OpenHIE Terminology Service \(TS\)
 
-The Terminology Services component of the [OpenHIE Architecture](https://wiki.ohie.org/pages/viewpage.action?pageId=8454157) provides a centralized source for the HIE’s standards and definitions, including terminologies, ontologies, dictionaries, code systems, and value sets.  Other HIE components can use these standards and definitions to normalize clinical data and achieve consistent aggregation and reporting.  
+The Terminology Services component of the [OpenHIE Architecture](https://wiki.ohie.org/pages/viewpage.action?pageId=8454157) provides a centralized source for the HIE’s standards and definitions, including terminologies, ontologies, dictionaries, code systems, and value sets. Other HIE components can use these standards and definitions to normalize clinical data and achieve consistent aggregation and reporting.
 
 By using Terminology Services, an HIE can achieve semantic interoperability of its data. Semantic interoperability \(or interoperability of meaning\) enables accurate, consistent reporting and aggregation of clinical data. It also enables accurate exchange of information among members of the provider community, including labs, clinics, pharmacies, hospitals and imaging centers, which leads to improved patient care decisions.
 
@@ -11,13 +11,13 @@ Benefits of the use of a Terminology Service include:
 * **Better Reporting:** Standardized data element representations result in consistent and accurate reporting.
 * **Coordinated Care:** Consistent and comparable analysis of healthcare utilization data leads to more informed decisions about resource allocation.
 
-See also [Non-Functional Requirements](non-functional-requirements.md). 
+See also [Non-Functional Requirements](non-functional-requirements.md).
 
-## OpenHIE TS Workflow Requirements 
+## OpenHIE TS Workflow Requirements
 
 A Terminology Service exposes a set of run-time functions \(services\) that support other OHIE components. These Terminology Service functions are typically actions found in the primary OHIE Workflows \(see example below\). Four primary functions have been identified. Depending upon the specific Workflows required in an implementation, not all of these functions may be required, but an OHIE-compliant Terminology Service should support all of these features.
 
-To be an OHIE TS component, the TS application must be able to support the OHIE workflows listed below.  Implementations may support only the workflows needed to support their use case. All of the required functions below are to be implemented using the associated HL7 FHIR Terminology Service specifications, e.g. Resources and Operations. These workflows also conform to the IHE Infrastructure Technical Framework Supplement - Sharing Value Sets, Codes, and Maps \(SVCM\) specification.
+To be an OHIE TS component, the TS application must be able to support the OHIE workflows listed below. Implementations may support only the workflows needed to support their use case. All of the required functions below are to be implemented using the associated HL7 FHIR Terminology Service specifications, e.g. Resources and Operations. These workflows also conform to the IHE Infrastructure Technical Framework Supplement - Sharing Value Sets, Codes, and Maps \(SVCM\) specification.
 
 | \# | **TS Workflows \(Described in detail in the later part of this document\)** | **Recommendation/ Requirement** |
 | :--- | :--- | :--- |
@@ -30,7 +30,7 @@ To be an OHIE TS component, the TS application must be able to support the OHIE 
 | \*\*\*\*[**TSWF-7**](../introduction/terminology-service-workflow/lookup-code.md)\*\*\*\* | [Lookup Code](../introduction/terminology-service-workflow/lookup-code.md) | Requirement |
 | \*\*\*\*[**TSWF-8**](../introduction/terminology-service-workflow/translate-code.md)\*\*\*\* | [Translate Code](../introduction/terminology-service-workflow/translate-code.md) | Requirement |
 
-## OpenHIE TS Functional Requirements 
+## OpenHIE TS Functional Requirements
 
 | \# | **TS Functional Requirements** | **Recommendation / Requirement** |
 | :--- | :--- | :--- |

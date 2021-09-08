@@ -6,5 +6,3 @@ The workflows are designed to support the following types of data exchanges:
 * A LIS can send lab results electronically to an EMR 
 * For more information on exemplary implementations, please contact the LIS COP.
 
-
-

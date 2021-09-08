@@ -1,8 +1,8 @@
 # Translate Code
 
- ****This transaction allows a PoS, or any OHIE component, to access terminological information in the terminology service and retrieve the translation, or "mapping" of a Concept in one Code System to a Concept in another Code System. Mapping is frequently required when patient data is collected using Concepts/Codes from one Code System but the data must be reported or aggregated, say for decision support, in a different Code System. The set of such associated Concepts, usually for a specific use-case, are stored in the Terminology Service in a FHIR Resource called a ConceptMap.
+_\*\*_This transaction allows a PoS, or any OHIE component, to access terminological information in the terminology service and retrieve the translation, or "mapping" of a Concept in one Code System to a Concept in another Code System. Mapping is frequently required when patient data is collected using Concepts/Codes from one Code System but the data must be reported or aggregated, say for decision support, in a different Code System. The set of such associated Concepts, usually for a specific use-case, are stored in the Terminology Service in a FHIR Resource called a ConceptMap.
 
-Both external systems and systems inside the HIE may perform this transaction directly with the TS.  The sequence diagram below shows the steps that occur for a system using this transaction.
+Both external systems and systems inside the HIE may perform this transaction directly with the TS. The sequence diagram below shows the steps that occur for a system using this transaction.
 
 1. Mapping: Using the ConceptMap 'ICD-10 to SNOMED CT Diseases', retrieve the SNOMED CT Concept Code\(s\) that is associated with '123XYZ' in ICD-10.
 
@@ -15,13 +15,12 @@ Both external systems and systems inside the HIE may perform this transaction di
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>   Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
-          <li><b>One or more OpenHIE implementations of this workflow exist  in one or more countries</b>
+          <li><b>One or more OpenHIE implementations of this workflow exist in one or more countries</b>
           </li>
           <li><b>Workflow is defined and ARB approved</b>
           </li>
@@ -57,7 +56,6 @@ Both external systems and systems inside the HIE may perform this transaction di
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point-of-service system or other HIE component that is requesting
             the translation.</li>
@@ -71,7 +69,7 @@ Both external systems and systems inside the HIE may perform this transaction di
 
 ## **Interaction Description**
 
-The following is a description of the interaction steps. 
+The following is a description of the interaction steps.
 
 ![](https://lh3.googleusercontent.com/EthDly9fk9f2CNixr1QkJS3-iufEkWRZmH_4K0p0yYETwD4OukltPQ0-gxiblSB-Oz-jsJvEAcAfljVxWhQUmShBpwDnKwsi_sEoAEbFn64xobObbBf2jU9C5moGvxvjZA)
 

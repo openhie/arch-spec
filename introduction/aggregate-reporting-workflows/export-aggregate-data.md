@@ -1,6 +1,6 @@
 # Export Aggregate Data
 
- This workflow enables aggregate data to be generated and exported to another system.  This is useful for exporting routine reporting data to an upstream HMIS system for high-level reporting.
+This workflow enables aggregate data to be generated and exported to another system. This is useful for exporting routine reporting data to an upstream HMIS system for high-level reporting.
 
 <table>
   <thead>
@@ -12,11 +12,10 @@
           <img src="https://lh3.googleusercontent.com/EmXfy3cb-GlHlYFa4D8Gu0LggwvjRH5_9E93s2xHn_8me7Uh-F_9ueZtnTAL4nzP5Lqaq312bDxQD-anCV28fku333MOHZfS-MmEOw271EPVY1H-Q2JFz-LPB-bfw2FRiw"
           alt/>
         </p>
-        <p><b>  Maturing</b>
+        <p> <b>Maturing</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li>Workflow is defined and ARB approved</li>
           <li>Workflow is supported by the IHE ADX profile</li>
@@ -48,7 +47,7 @@
           <li>HMIS- The system that will be receiving aggregate data. Examples of this
             system could be an external HMIS system or an HIE.</li>
         </ul>
-        <p><b>Sender </b>
+        <p><b>Sender</b>
         </p>
         <ul>
           <li>IOL - The Interoperability Layer (IOL) is the component that enables easier
@@ -64,7 +63,7 @@
   </tbody>
 </table>
 
-## Interaction Description 
+## Interaction Description
 
 ![](https://lh6.googleusercontent.com/7fYXfy0Bto7jB5CzWZblmaa68M2fF8sQnYLvtNF5aZkgHDCUsZ0F9OWQKOAhf-8Jvsra2CzG2ZEvJ4MjZK_cnIclU-MfHfw1Qurs1VohPzZGse7BXG_FnUCDhwm1U7AcAg)
 
@@ -143,6 +142,4 @@
     </tr>
   </tbody>
 </table>
-
-## 
 

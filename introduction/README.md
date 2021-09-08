@@ -1,8 +1,8 @@
 # Workflow \(Exchange\) Specification
 
-OpenHIE workflows are the technical data exchange patterns for sharing health data between one or more of the [OpenHIE Architecture](https://wiki.ohie.org/pages/viewpage.action?pageId=8454157) components and/or other health information systems. As specified in the process documented above, the OpenHIE workflows have been vetted and agreed upon by the OpenHIE [Architecture Review Board](https://wiki.ohie.org/display/documents/Architecture+Review+Board+Members%2C+Responsibilities+and+Deliverables). The purpose of this section is to document the workflow specifications for OpenHIE.  New workflows are being created and additional standards such as FHIR may not yet be incorporated and this type of work in progress may be found on the OpenHIE wiki. In addition, you are invited to join our processes and contribute new workflows for the next release. 
+OpenHIE workflows are the technical data exchange patterns for sharing health data between one or more of the [OpenHIE Architecture](https://wiki.ohie.org/pages/viewpage.action?pageId=8454157) components and/or other health information systems. As specified in the process documented above, the OpenHIE workflows have been vetted and agreed upon by the OpenHIE [Architecture Review Board](https://wiki.ohie.org/display/documents/Architecture+Review+Board+Members%2C+Responsibilities+and+Deliverables). The purpose of this section is to document the workflow specifications for OpenHIE. New workflows are being created and additional standards such as FHIR may not yet be incorporated and this type of work in progress may be found on the OpenHIE wiki. In addition, you are invited to join our processes and contribute new workflows for the next release.
 
-For each workflow the following is documented:  
+For each workflow the following is documented:
 
 * Maturity - Each workflow’s maturity is subjectively documented based upon the following factors:  
   * The workflow is defined and ARB approved
@@ -14,6 +14,4 @@ For each workflow the following is documented:
 * Actors - The systems or HIE components that have roles in the data exchange process being specified.  
 * Interaction diagram - The visual description of how the data moves between systems.  
 * Interaction diagram steps - Details explaining the steps in the interaction diagram.  
-
-
 

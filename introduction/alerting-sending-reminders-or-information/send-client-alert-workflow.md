@@ -7,7 +7,7 @@ An alert is intended as a largely one way communication to a client of the syste
 1. **Crisis Response** In response to a crisis or emergency situation, such as the 2014 and 2015 outbreaks of Ebola in western Africa, it is critical to communicate to clients within a particular health care network and to verify, to the extent possible, the receipt of the alert.
 2. **Care Reminders** A subject of care may receive care from multiple providers across multiple health care networks, and coordination of care across providers and networks is difficult. If an Electronic Medical Record or Longitudinal/Shared Health Record is present, Care Reminder alerts can be triggered through the examination of clinical records about the subject of care. Care Reminder alerts are sent either to the subject of care.
 
-Though the infrastructure of the alerting workflow indicated below would permit communication of many types of additional messages, alerts, or notifications,  it is not intended that these messages exceed the above use cases.  In particular, these do not include "Critical Findings" or other types of alerts which require immediate action.
+Though the infrastructure of the alerting workflow indicated below would permit communication of many types of additional messages, alerts, or notifications, it is not intended that these messages exceed the above use cases. In particular, these do not include "Critical Findings" or other types of alerts which require immediate action.
 
 The IHE mACM standard on which this workflow expects that additional IHE profiles utilizing mACM would be developed to address broader alerting workflows.
 
@@ -21,11 +21,10 @@ The IHE mACM standard on which this workflow expects that additional IHE profile
           <img src="https://lh5.googleusercontent.com/SwTBO_8vzVctmDOSo5tkBN_fHnAOXCPRte9_AMicZau9PrNtdFvIjxTI4wvWx3qVdAT0IcSVeuRmdP2A89o70-CDD-L6gpWzWM2D6GjuGnLk43EDwJDsw-Cv-mjo1CioMw"
           alt/>
         </p>
-        <p><b>  Maturing</b>
+        <p> <b>Maturing</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li>Workflow is defined and ARB Approved</li>
           <li>Workflow is supported by emerging IHE mACM standard in Trial Implementation</li>
@@ -40,13 +39,13 @@ The IHE mACM standard on which this workflow expects that additional IHE profile
       <td style="text-align:left">
         <p>1. FHIR DSTU2 search on Location, Provider or Patient resources / FHIR
           DSTU2 bundle search response</p>
-        <p><b>   OR</b>
+        <p> <b>OR</b>
         </p>
         <p>ITI-73 Find Matching Services CSD Request / ITI-73 Find Matching Services
           response</p>
         <p>2. FHIR search on Patient resources (PDQm) request / FHIR DSTU2 bundle
           search response</p>
-        <p><b>  OR</b>
+        <p> <b>OR</b>
         </p>
         <p>PIX/PDQ request / PIX/PDQ response
           <br />
@@ -63,7 +62,7 @@ The IHE mACM standard on which this workflow expects that additional IHE profile
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p><b>Alert Reporter - </b>The point-of-service system that captures patient
+        <p><b>Alert Reporter -</b> The point-of-service system that captures patient
           identifiers, is responsible for sending the identifiers to the HIE.
           <br
           />An Alert Reporter shall originate or relay alerts (an alarm, either physiological
@@ -90,7 +89,7 @@ The IHE mACM standard on which this workflow expects that additional IHE profile
             received the Mediator acts as an Alert Reporter and sends out an out an
             alert of the missed appointment to the client.</li>
         </ul>
-        <p><b>Alert Aggregator - </b>A system responsible for distributing an alert
+        <p><b>Alert Aggregator -</b> A system responsible for distributing an alert
           to a client. The alert aggregator manage these alerts according to the
           required jurisdiction defined business context, for example dispatching
           them onto a communications platform for delivery to an intended recipient.
@@ -103,7 +102,7 @@ The IHE mACM standard on which this workflow expects that additional IHE profile
   </tbody>
 </table>
 
-## Interaction Description 
+## Interaction Description
 
 ![](https://lh3.googleusercontent.com/K-clrcMhTENXAMc6Z0SLfUJ6eJet27jz2Q8VTe5kwHhkLt_zl3GWHjMQrFMtVjZCNLBrsQSin36zkmND3nwT5Boj5udj2EzO9SJdu66orDBVT2i3wxUF7-XnRadAI3lwxg)
 

@@ -1,16 +1,16 @@
 # OpenHIE Facility Registry \(FR\)
 
-The purpose of a health facility registry is to act as the central authority to collect, store, and distribute an up to date and standardized set of facility data.  The resulting standardized and current facility dataset stored in the registry is called the Master Facility List \(MFL\).  While these concepts are closely related, a facility registry can be understood as the technology that manages and shares facility data and an MFL is the standardized data stored in the tool. 
+The purpose of a health facility registry is to act as the central authority to collect, store, and distribute an up to date and standardized set of facility data. The resulting standardized and current facility dataset stored in the registry is called the Master Facility List \(MFL\). While these concepts are closely related, a facility registry can be understood as the technology that manages and shares facility data and an MFL is the standardized data stored in the tool.
 
-See also [Non-Functional Requirements](non-functional-requirements.md). 
+See also [Non-Functional Requirements](non-functional-requirements.md).
 
-## **OpenHIE FR Workflow Requirements** 
+## **OpenHIE FR Workflow Requirements**
 
 | \# | **FR Workflows \(Described in detail in the later part of this document\)** | **Recommendation/ Requirement** |
 | :--- | :--- | :--- |
-| \*\*\*\*[**FRWF-1**](../introduction/care-services-discovery/query-health-worker-and-or-facility-records-workflow.md)\*\*\*\* |  [Query health worker and/or facility records workflow.](../introduction/care-services-discovery/query-health-worker-and-or-facility-records-workflow.md) | Required |
+| \*\*\*\*[**FRWF-1**](../introduction/care-services-discovery/query-health-worker-and-or-facility-records-workflow.md)\*\*\*\* | [Query health worker and/or facility records workflow.](../introduction/care-services-discovery/query-health-worker-and-or-facility-records-workflow.md) | Required |
 
-## OpenHIE FR Functional Requirements 
+## OpenHIE FR Functional Requirements
 
 <table>
   <thead>
@@ -42,7 +42,6 @@ See also [Non-Functional Requirements](non-functional-requirements.md).
       <td style="text-align:left"><b>FRF-3</b>
       </td>
       <td style="text-align:left">
-        <p></p>
         <p>A system should support the collection of data for the following minimum
           facility attributes dataset: (<a href="https://www.who.int/healthinfo/MFL_Resource_Package_Jan2018.pdf?ua=1">Refer to WHO, USAID MFL resource package - Guidelines for countries</a>)</p>
         <p><b>Signature Domain</b>

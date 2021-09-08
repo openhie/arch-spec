@@ -12,7 +12,7 @@ Workflow for a point of service application to query a Care Services Registry or
           <img src="https://lh3.googleusercontent.com/5pqeaiKmzar1ArIa8oQG4D_pt1AUs6-4_d5KLJXFLpkp1PdN4eYtUD5YcMO0YNTHEH4OkUp5Jom_Gy56jgz-2o5kGTV9QtIBtg79TYH2wWecLI6PzT4uXwuBlbBKPagbDw"
           alt/>
         </p>
-        <p><b>  Maturing</b>
+        <p> <b>Maturing</b>
         </p>
       </th>
       <th style="text-align:left">
@@ -34,7 +34,6 @@ Workflow for a point of service application to query a Care Services Registry or
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <p>A Care Services Registry shall have one or more of the following resources:</p>
         <ul>
           <li>Location</li>
@@ -48,7 +47,6 @@ Workflow for a point of service application to query a Care Services Registry or
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>ILR= InterLinked Registry, mCSD Care Services Update Consumer</li>
           <li>CSR = Any Care Services Registry (e.g. HWR or FR), mCSD Care Services
@@ -59,9 +57,9 @@ Workflow for a point of service application to query a Care Services Registry or
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
-The following is a description of the interaction steps. 
+The following is a description of the interaction steps.
 
 ![](https://lh5.googleusercontent.com/Qo99bmR5cItDA89ePqPqp8OUxcZx6pydhwRUhP64aIOCzmMYLqIQTWvJLXUhV1SQ7L5VsjVr86SW30sD9zWu2EHVLRHwLw7K9-BquP4HvSRuxOQAT_kZLlx0IuEerASdaw)
 

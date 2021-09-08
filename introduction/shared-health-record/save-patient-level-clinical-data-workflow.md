@@ -12,11 +12,10 @@ This transaction allows a point of service \(PoS\) system to save patient-level 
           <img src="https://lh5.googleusercontent.com/Vp6XBRGu-U_Dmd5EKNpCZvEEum0CxOcHOj9NgHh8UMMNLMlXHmLcUE_YWueDRr4uqWLzpPfzSBLJ2k33XQIelLypjQ4wyrD17-t33GtLa8fFxW9AYDvXhiJmBl4VaLgKDg"
           alt/>
         </p>
-        <p><b>   Mature</b>
+        <p> <b>Mature</b>
         </p>
       </th>
       <th style="text-align:left">
-        <p></p>
         <ul>
           <li><b>One or more OpenHIE implementations of this workflow exist in one or more countries</b>
           </li>
@@ -33,7 +32,6 @@ This transaction allows a point of service \(PoS\) system to save patient-level 
       <td style="text-align:left">Standards</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>XDS.b with the on-demand document (ODD) option - provide and register
             document - <a href="https://www.ihe.net/uploadedFiles/Documents/ITI/IHE_ITI_TF_Vol2b.pdf">ITI-41</a>
@@ -60,7 +58,6 @@ This transaction allows a point of service \(PoS\) system to save patient-level 
       <td style="text-align:left">Assumptions and Prerequisites</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>The PoS system has a curated list of Providers that interact with that
             system, with knowledge of at least the providers that are relevant to that
@@ -94,7 +91,6 @@ This transaction allows a point of service \(PoS\) system to save patient-level 
       <td style="text-align:left">Actors</td>
       <td style="text-align:left"></td>
       <td style="text-align:left">
-        <p></p>
         <ul>
           <li>PoS - The point of service system that captures a patient clinical encounter,
             it is responsible for sending this encounter on to the HIE.</li>
@@ -115,9 +111,9 @@ This transaction allows a point of service \(PoS\) system to save patient-level 
   </tbody>
 </table>
 
-## **Interaction Description** 
+## **Interaction Description**
 
-The following is a description of the interaction steps. 
+The following is a description of the interaction steps.
 
 ![](https://lh6.googleusercontent.com/cgINyEZcAplJKeT--vaOp40laQLY-LzCgtix1dVB4eBywuFJ91yS1DKZsialL9T0FeNd2d7mdErm1A4e8RfD2Y1m8_9ilmWNP-7taLl8xnw1wNfIH_U0pFQecP4SaJgH0g)
 
@@ -218,7 +214,7 @@ The following is a description of the interaction steps.
       <td style="text-align:left">10</td>
       <td style="text-align:left">Save clinical encounter</td>
       <td style="text-align:left">
-        <p><a href="http://wiki.ihe.net/index.php?title=Profiles#IHE_Patient_Care_Coordination_Profiles">CDA document conforming to a particular PCC profile</a> 
+        <p><a href="http://wiki.ihe.net/index.php?title=Profiles#IHE_Patient_Care_Coordination_Profiles">CDA document conforming to a particular PCC profile</a>
         </p>
         <p>XDS.b provide and register document (ITI-41 from the <a href="http://www.ihe.net/Technical_Frameworks/#IT">ITI framework</a>)
           - SOAP web service</p>
