@@ -23,7 +23,7 @@ See also [Non-Functional Requirements](non-functional-requirements.md).
           </li>
           <li><a href="../introduction/alerting-sending-reminders-or-information/">Alerting / Sending Reminders or Information</a>
           </li>
-          <li><a href="../introduction/case-reporting-new-section-needs-to-go-in-alpha-order.md">Case Reporting (New Section - needs to go in alpha order)</a>
+          <li><a href="../introduction/vaccine-workflows.md">Case Reporting (New Section - needs to go in alpha order)</a>
           </li>
           <li><a href="../introduction/care-services-discovery/">Care Services Discovery</a>
           </li>
@@ -47,7 +47,7 @@ See also [Non-Functional Requirements](non-functional-requirements.md).
           </li>
           <li><a href="../introduction/alerting-sending-reminders-or-information/">Alerting / Sending Reminders or Information</a>
           </li>
-          <li><a href="../introduction/case-reporting-new-section-needs-to-go-in-alpha-order.md">Case Reporting (New Section - needs to go in alpha order)</a>
+          <li><a href="../introduction/vaccine-workflows.md">Case Reporting (New Section - needs to go in alpha order)</a>
           </li>
           <li><a href="../introduction/care-services-discovery/">Care Services Discovery</a>
           </li>
