@@ -17,7 +17,7 @@ This separation of concerns supports quality, safety, and continuity of care, an
 
 ## OpenHIE Architecture Diagram
 
-![](https://lh4.googleusercontent.com/6HE2N1ltcH8dMYKR6SShnrC5azTO0yk_kUsfaJV5s8lQcf2dfqSUFWwLjxmL53OVYVh9SevEQVnsA-4E-6axJ96cWtOX3jbXVfuhQtYpa-ioGaQidLJyJU26kQHMUl1Ecaa6F4DX)
+![](../.gitbook/assets/arch-diagram-2021-09.png)
 
 ## Architecture Component Descriptions 
 
