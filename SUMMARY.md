@@ -56,6 +56,6 @@
     * [Query Concept Maps](introduction/terminology-service-workflow/query-concept-maps.md)
     * [Lookup Code](introduction/terminology-service-workflow/lookup-code.md)
   * [Vaccine Workflows](introduction/vaccine-workflows.md)
-* [Make the Specification Better](how-to-provde-input.md)
+* [How to Provide Feedback and Input](how-to-provde-input.md)
 * [Change Log and Versioning](change-log-and-versioning.md)
 

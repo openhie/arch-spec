@@ -1,4 +1,4 @@
-# Make the Specification Better
+# How to Provide Feedback and Input
 
 ## We Need Your Input 
 
