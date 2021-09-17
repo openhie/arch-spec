@@ -9,19 +9,20 @@ The following are an overview of the significant content changes that have been 
 * Added [Point-of-Care Systems](openhie-component-specifications-1/point-of-care-systems-new-section.md) page
 * Added [How to use the Specification](get-started.md) page
 * Added [Standards and Profiles](architecture-specification/standards-and-profiles.md) page
+* Added two new workflows that support vaccine and test documents; [Register / Store Document](introduction/shared-health-record/register-store-document.md) and [Retrieve Document](introduction/shared-health-record/retrieve-document.md).  
 * Added a new workflow section, [Vaccine Workflows](introduction/vaccine-workflows.md).  
-* Moved [Architecture Principles](architecture-specification/architectural-principles.md) to the Specification 
-* Moved [Architecture Standards and Profiles](architecture-specification/standards-and-profiles.md) to the Specification
+* Moved [Architecture Principles](architecture-specification/architectural-principles.md) from the wiki to the Specification 
+* Moved [Architecture Standards and Profiles](architecture-specification/standards-and-profiles.md) from the wiki to the Specification
 
 ### Updates 
 
-* Updated diagram on the [Architecture](architecture-specification/overview-of-the-architecture.md) section. 
+* Updated diagram on the [Architecture](architecture-specification/overview-of-the-architecture.md) page. 
 * Changed the format from PDF to GitBook 
 * Minor changes in wording and formatting for GitBook
 
 ### How to Reference This Version
 
-This is the 4.0 \(September 2021\) version of the specification.  
+This is the 4.0 \(September 2021\) version of the specification.  To reference it, include the link \([https://guides.ohie.org/arch-spec/](https://guides.ohie.org/arch-spec/)\) and state the version number.  
 
 ## Version 3.0 \(September 2020\)
 
