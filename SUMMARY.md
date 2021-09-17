@@ -1,3 +1,3 @@
 # Table of contents
 
-* [Title](README.md)
+* [OpenHIE Architecture Specification Version 3.0](README.md)
