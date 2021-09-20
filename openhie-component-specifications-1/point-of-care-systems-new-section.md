@@ -23,8 +23,6 @@ See also [Non-Functional Requirements](non-functional-requirements.md).
           </li>
           <li><a href="../introduction/alerting-sending-reminders-or-information/">Alerting / Sending Reminders or Information</a>
           </li>
-          <li><a href="../introduction/vaccine-workflows.md">Case Reporting (New Section - needs to go in alpha order)</a>
-          </li>
           <li><a href="../introduction/care-services-discovery/">Care Services Discovery</a>
           </li>
           <li><a href="../introduction/laboratory-work-flows/">Laboratory Work Flows</a>
@@ -34,6 +32,8 @@ See also [Non-Functional Requirements](non-functional-requirements.md).
           <li><a href="../introduction/shared-health-record/">Shared Health Record</a>
           </li>
           <li><a href="../introduction/terminology-service-workflow/">Terminology Service Workflow</a>
+          </li>
+          <li><a href="../introduction/vaccine-workflows.md">Vaccine Workflows</a>
           </li>
         </ul>
         </td>
@@ -47,8 +47,6 @@ See also [Non-Functional Requirements](non-functional-requirements.md).
           </li>
           <li><a href="../introduction/alerting-sending-reminders-or-information/">Alerting / Sending Reminders or Information</a>
           </li>
-          <li><a href="../introduction/vaccine-workflows.md">Case Reporting (New Section - needs to go in alpha order)</a>
-          </li>
           <li><a href="../introduction/care-services-discovery/">Care Services Discovery</a>
           </li>
           <li><a href="../introduction/laboratory-work-flows/">Laboratory Work Flows</a>
@@ -57,6 +55,8 @@ See also [Non-Functional Requirements](non-functional-requirements.md).
           <li><a href="../introduction/shared-health-record/">Shared Health Record</a>
           </li>
           <li><a href="../introduction/terminology-service-workflow/">Terminology Service Workflow</a>
+          </li>
+          <li><a href="../introduction/vaccine-workflows.md">Vaccine Workflows</a>
           </li>
         </ul>
       </td>
