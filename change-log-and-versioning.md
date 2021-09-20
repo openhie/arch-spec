@@ -37,5 +37,5 @@ Previous releases of the OpenHIE Architecture Specification are stored on the [O
 
 **Previous Specification Versions** Previous releases of the specification document can be found on this page of the [OpenHIE Wiki](https://wiki.ohie.org/).
 
-\*\*\*\*![](.gitbook/assets/creative-commons.svg) **This work is licensed under a Creative Commons Attribution 4.0 International License.**
+\*\*\*\*![](.gitbook/assets/creative-commons%20%281%29.svg) **This work is licensed under a Creative Commons Attribution 4.0 International License.**
 
