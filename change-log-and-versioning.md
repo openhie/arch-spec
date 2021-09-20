@@ -6,7 +6,7 @@ The following are an overview of the significant content changes that have been 
 
 ### Additions
 
-* Added [Point-of-Care Systems](openhie-component-specifications-1/point-of-care-systems-new-section.md) page
+* Added [Point-of-Care Systems](openhie-component-specifications-1/point-of-care-systems.md) page
 * Added [How to use the Specification](get-started.md) page
 * Added [Standards and Profiles](architecture-specification/standards-and-profiles.md) page
 * Added [Community Health Workflows](introduction/community-health-workflows/) and it's child page, [Request Community Based Follow-Up](introduction/community-health-workflows/request-community-based-follow-up.md)
