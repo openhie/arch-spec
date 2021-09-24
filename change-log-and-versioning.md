@@ -17,7 +17,7 @@ The following are an overview of the significant content changes that have been 
 
 ### Updates 
 
-* Updated diagram on the [Architecture](architecture-specification/overview-of-the-architecture.md) page to specifically denote Community Health Information Systems \(CHIS\) . 
+* Updated diagram on the [Architecture](architecture-specification/overview-of-the-architecture.md) page to specifically denote Community Health Information Systems \(CHIS\). 
 * Changed the format from PDF to GitBook 
 * Minor changes in wording and formatting for GitBook
 
