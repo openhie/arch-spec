@@ -4,8 +4,8 @@ This collection of workflows allows an external system with access to the HIE to
 
 The workflows are designed to support the following types of data exchanges with systems that have access to the HIE.
 
-1. A system can record vaccine status to the HIE using the [Save Patient-level Clinical Data Workflow](shared-health-record/save-patient-level-clinical-data-workflow.md) transaction.  
-2. A system can query vaccine status from the HIE using the [Query Patient-level Clinical Data Workflow](shared-health-record/query-patient-level-clinical-data-workflow.md) transaction.  
+1. A system can record a vaccine document to the HIE using the [Save Patient-level Clinical Data Workflow](shared-health-record/save-patient-level-clinical-data-workflow.md) transaction.  
+2. A system can query for a vaccine document from the HIE using the [Query Patient-level Clinical Data Workflow](shared-health-record/query-patient-level-clinical-data-workflow.md) transaction.  
 
 {% hint style="success" %}
 References:
