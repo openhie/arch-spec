@@ -9,9 +9,7 @@ The following are an overview of the significant content changes that have been 
 * Added [Point-of-Care Systems](openhie-component-specifications-1/point-of-care-systems.md) page
 * Added [How to use the Specification](get-started.md) page
 * Added [Standards and Profiles](architecture-specification/standards-and-profiles.md) page
-* Added [Community Health Workflows](introduction/community-health-workflows/) and it's child page, [Request Community Based Follow-Up](introduction/community-health-workflows/request-community-based-follow-up.md)
-* Added two new workflows that support vaccine and test documents; [Register / Store Document](introduction/shared-health-record/register-store-document.md) and [Retrieve Document](introduction/shared-health-record/retrieve-document.md).  
-* Added a new workflow section, [Vaccine Workflows](introduction/vaccine-workflows.md).  
+* * Added a new workflow section, [Vaccine Workflows](introduction/vaccine-workflows.md).  
 * Moved [Architecture Principles](architecture-specification/architectural-principles.md) from the wiki to the Specification 
 * Moved [Architecture Standards and Profiles](architecture-specification/standards-and-profiles.md) from the wiki to the Specification
 

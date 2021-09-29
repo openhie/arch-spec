@@ -285,3 +285,12 @@ The following is a description of the interaction steps.
   </tbody>
 </table>
 
+
+
+{% hint style="success" %}
+References:  
+
+* [WHO DDCC Workflows](https://worldhealthorganization.github.io/ddcc/workflows.html)
+* [Digitize Vaccine Event](https://worldhealthorganization.github.io/ddcc/workflows.html)
+{% endhint %}
+
