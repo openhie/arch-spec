@@ -18,7 +18,7 @@ This workflow allows a point-of-care system to make requests to a Community Heal
         </p>
       </th>
       <th style="text-align:left">
-        <p>&lt;del&gt;&lt;/del&gt;</p>
+        <p></p>
         <ul>
           <li>Workflow is defined and ARB approved</li>
           <li>Initial implementations are being discussed</li>

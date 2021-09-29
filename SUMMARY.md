@@ -44,6 +44,8 @@
   * [Shared Health Record](introduction/shared-health-record/README.md)
     * [Save Patient-level Clinical Data Workflow](introduction/shared-health-record/save-patient-level-clinical-data-workflow.md)
     * [Query Patient-level Clinical Data Workflow](introduction/shared-health-record/query-patient-level-clinical-data-workflow.md)
+    * [Register / Store Document](introduction/shared-health-record/register-store-document.md)
+    * [Retrieve Document](introduction/shared-health-record/retrieve-document.md)
   * [Terminology Service Workflows](introduction/terminology-service-workflow/README.md)
     * [Expand Value Set](introduction/terminology-service-workflow/expand-value-set.md)
     * [Translate Code](introduction/terminology-service-workflow/translate-code.md)
