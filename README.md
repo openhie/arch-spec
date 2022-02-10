@@ -2,5 +2,4 @@
 
 Version 3.0 of this specification was published as a PDF. This version of the document may be downloaded from the OpenHIE website.
 
-\*\*\*\*[**PDF 3.67MB**](https://ohie.org/download/openhie-architecture-specification/)\*\*\*\*
-
+{% file src=".gitbook/assets/OpenHIE Specification Release 3.0.pdf" %}
