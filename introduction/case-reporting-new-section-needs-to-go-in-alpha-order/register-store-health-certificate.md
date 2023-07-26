@@ -1,2 +1,0 @@
-# Register / Store Health Certificate
-
